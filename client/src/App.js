@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Database from "../../../../../Desktop/notion/frontend/src/databaseTemplates/Database"
-import Page from "../../../../../Desktop/notion/frontend/src/pageTemplates/Page"
-import Page2 from "../../../../../Desktop/notion/frontend/src/pageTemplates/page2"
+import Database from "./databaseTemplates/Database"
+import Page from "./pageTemplates/Page"
+import Page2 from "./pageTemplates/page2"
 
 function App() {
   return (
