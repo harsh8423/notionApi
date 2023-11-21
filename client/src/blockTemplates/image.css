@@ -1,0 +1,81 @@
+.imgcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .img{
+        margin: 7px;
+        max-width: 75vw;
+        max-height: auto;
+    }
+
+  }
+
+
+
+
+.arrow-up{
+    width: 0; 
+  
+    transform:rotate(45deg);
+    position:absolute;
+    margin:-10px;
+    margin-top: -28px;
+    height: 0; 
+    box-shadow: 5px 0px 7px -7px rgba(0, 0, 0, 0.75);
+  
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent; 
+    border-right:40px solid white; 
+  }
+  
+  .arrow-down {
+    width: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -28px; /* Adjust this value based on your design */
+    right: -20px; /* Adjust this value based on your design */
+    height: 0;
+    box-shadow: -5px 0px 7px -7px rgba(0, 0, 0, 0.75);
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid white;
+  }
+  
+  
+  .downside {
+    width: 60px;
+    z-index: -1;
+    position: absolute;
+    bottom: 4px; /* Adjust this value based on your design */
+    right: -10px; /* Adjust this value based on your design */
+    height: 60px;
+    background-color: transparent;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.182);
+  }
+  
+  
+  .upside {
+    width: 60px;
+    position: absolute;
+    top: 5px;
+    left: -5px; 
+    height: 60px;
+    background-color: transparent;
+    /* box-shadow: 5px -7px 7px -7px rgba(0, 0, 0, 0.75); */
+    box-shadow: -3px -3px 5px 0px rgba(0, 0, 0, 0.111);
+  
+  }
+  
+  

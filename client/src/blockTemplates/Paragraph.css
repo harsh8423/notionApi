@@ -1,0 +1,15 @@
+.para{
+    font-family: 'Kalam', 'cursive';
+}
+
+.inside-para{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .paraout{
+        text-align: justify;
+    }
+
+  }

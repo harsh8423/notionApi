@@ -1,0 +1,50 @@
+.quote-container {
+  margin-top: 0;
+  min-height: 13vmax; /* Set the height to 300px */
+  width: 15vmax;  
+  background: #eae672;
+  color: #333;
+  padding: 12px;
+  font-family: 'Kalam';
+  font-size: 1.4vmax;
+  box-shadow: 0 5px 5px 1px rgba(0,0,0,0.2);
+  overflow:hidden;
+
+}
+
+.outter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+    
+  .outter{
+    width: 100vw;
+  }
+  .quote-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vw; /* Set the height to 300px */
+    width: 70vw;  /* Set the width to 300px */
+    background: #eae672;
+    color: #333;
+    padding: 12px;
+    font-family: 'Kalam';
+    font-size: 1.7vmax;
+    box-shadow: 0 5px 5px 1px rgba(0,0,0,0.2);
+    overflow:hidden;
+  
+  }
+
+}
+
+
+/* .note .author {
+  /* display: block; */
+  /* text-align: right; */
+/* } */
+
